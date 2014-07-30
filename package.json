@@ -15,7 +15,7 @@
         "esp",
     ],
     "dependencies": {
-        "esp-server": "~5.0",
+        "esp-server": "~5",
     },
     "app": {
         "esp": {
