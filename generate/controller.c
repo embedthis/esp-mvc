@@ -6,6 +6,6 @@
 ${ACTIONS}
 
 ESP_EXPORT int esp_controller_${APP}_${CONTROLLER}(HttpRoute *route, MprModule *module) {
-    ${DEFINE_ACTIONS}    
+${DEFINE_ACTIONS}    
     return 0;
 }
