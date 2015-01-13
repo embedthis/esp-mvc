@@ -3,16 +3,21 @@ esp-mvc
 
 Pak for MVC support for ESP applications.
 
-#### Provides
-
-* esp.json &mdash; ESP MVC application configuration
-* appweb.conf &mdash; Appweb hosting configuration file
-
 #### Description
 
 The esp-mvc pak provides the MVC application support for ESP applications. It provides templates so that the ````esp````
 command can generate controllers, migrations, scaffolds and database tables. It also includes a stub ESP application 
 main module source file (app.c).
+
+#### Provides
+
+* esp.json &mdash; ESP MVC application configuration
+* appweb.conf &mdash; Appweb hosting configuration file
+* generate/* &mdash; Generation templates
+
+### Installation
+
+    pak install esp-mvc
 
 #### Generate Targets
 
@@ -35,10 +40,6 @@ To generate a migration
 To generate a scaffold
 
     esp generate scaffold model [field:type [, field:type] ...]
-
-### To install:
-
-pak install esp-mvc
 
 ### Get Pak from
 
