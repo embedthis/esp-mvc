@@ -23,6 +23,12 @@
     },
     "pak": {
         "manage": "esp.json",
-        "version": ">=0.10"
+        "version": ">=0.10",
+        "blend": {
+            "directories": {
+                "?dist": "dist",
+                "?controllers": "controllers"
+            }
+        }
     }
 }
