@@ -16,7 +16,6 @@
                 'package.json'
             ],
             to: 'deploy',
-            overwrite: true,
             clean: true
         }
     },
