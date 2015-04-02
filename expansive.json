@@ -16,7 +16,9 @@
                 'package.json'
             ],
             to: 'deploy',
-            clean: true
+            flatten: false,
+            clean: true,
+            script: ''
         }
     },
     release: {
