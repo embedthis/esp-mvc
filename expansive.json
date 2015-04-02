@@ -17,7 +17,7 @@
             ],
             to: 'deploy',
             overwrite: true,
-            clean: false,
+            clean: true
         }
     },
     release: {
