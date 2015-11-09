@@ -1,5 +1,6 @@
 {
     "esp": {
+        "?app": true,
         "generate": {
             "?appweb": "esp-mvc/generate/appweb.conf",
             "?controller": "esp-mvc/generate/controller.c",
@@ -16,6 +17,9 @@
         "formats": {
             "?date": "yyyy-MM-dd",
             "?float": 2
+        },
+        "pipeline": {
+            "?handlers": 'espHandler'
         },
         "?routes": "esp-restful"
     },
