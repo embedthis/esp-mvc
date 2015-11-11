@@ -26,14 +26,18 @@
     "modes": {
         "debug": {
             "esp": {
+                "combine": false,
+                "compile": true,
                 "optimize": false,
-                "combine": false
+                "update": true
             }
         },
         "release": {
             "esp": {
+                "combine": true,
+                "compile": true,
                 "optimize": true,
-                "combine": true
+                "update": true
             },
             "http": {
                 "compress": true
