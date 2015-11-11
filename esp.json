@@ -18,9 +18,6 @@
             "?date": "yyyy-MM-dd",
             "?float": 2
         },
-        "pipeline": {
-            "?handlers": 'espHandler'
-        },
         "?routes": "esp-restful"
     },
     "modes": {
