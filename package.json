@@ -62,6 +62,7 @@
             "install": {
                 "script": "mkdir('contents'); mkdir('layouts'); mkdir('partials')"
             }
-        }
+        },
+        "origin": "embedthis/esp-mvc"
     }
 }
