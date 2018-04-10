@@ -20,7 +20,7 @@
         },
         "?routes": "esp-restful"
     },
-    "modes": {
+    "profiles": {
         "debug": {
             "esp": {
                 "combine": false,
