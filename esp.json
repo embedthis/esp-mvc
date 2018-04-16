@@ -18,6 +18,7 @@
             "?date": "yyyy-MM-dd",
             "?float": 2
         },
+        "?showErrors": true,
         "?routes": "esp-restful"
     },
     "profiles": {
