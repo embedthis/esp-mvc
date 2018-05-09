@@ -22,7 +22,7 @@
         "?routes": "esp-restful"
     },
     "profiles": {
-        "debug": {
+        "dev": {
             "esp": {
                 "combine": false,
                 "compile": true,
@@ -30,7 +30,7 @@
                 "update": true
             }
         },
-        "release": {
+        "prod": {
             "esp": {
                 "combine": true,
                 "compile": true,
