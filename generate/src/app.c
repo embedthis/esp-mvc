@@ -8,10 +8,10 @@
 /*
     This base for controllers is called before processing each request
  */
-static void base(HttpConn *conn) {
+static void base(HttpConn *conn, EspAction *action) {
 }
 
-ESP_EXPORT int esp_app_${APP}(HttpRoute *route, MprModule *module) {
-    espDefineBase(route, base);
+ESP_EXPORT int esp_app_${APP}(HttpRoute *route) {
+    espController(route, base);
     return 0;
 }

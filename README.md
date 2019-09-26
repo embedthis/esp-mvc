@@ -1,18 +1,17 @@
-esp-mvc
+esp-vue-skeleton
 ===
 
-ESP MVC Application package.
+ESP VueJS Application Skeleton package.
 
 #### Description
 
-Provides MVC support for ESP applications. The package includes the ESP default 
+Provides MVC support for ESP applications. The package includes the ESP default
 directory structure, templates for generating controllers, and database migrations.
 This package provides default configuration files for ESP and Expansive.
 
-The package provides configuration for a "debug" and "release" mode of operation via 
-the "pak.mode" property in package.json. By default, debug mode will use pre-minified
-libraries if they have a symbol map file. Release mode will minify scripts as required.
-
+The package provides configuration for a "dev" and "prod" mode of operation via
+the "pak.mode" property in package.json. By default, dev profile will use pre-minified
+libraries if they have a symbol map file. The production profile will minify scripts as required.
 
 #### Provides
 
@@ -21,7 +20,7 @@ libraries if they have a symbol map file. Release mode will minify scripts as re
 * contents/ &mdash; Directory for input web page contents
 * layouts/ &mdash; Directory for Expansive master page layouts
 * partials/ &mdash; Directory ofr partial pages
-    
+
 #### Dependencies
 
 The esp-mvc package depends upon:
